@@ -5,7 +5,7 @@ export const demoConfig = {
     subtitle:
         "Watch how Conversa Verlix transforms your workflow through powerful AI collaboration.",
     type: "mixed", // includes both video and images
-    videoUrl: "https://www.youtube.com/embed/tBv2xWCS3wo?si=w7E26Gl2tLDLSQ1N",
+    videoUrl: "https://www.youtube.com/embed/zt8XlMyXnYM?si=5mANy6KKjuL5JDG9",
     images: [
         {
             src: "/assets/images/demo/demo-1.jpg",
