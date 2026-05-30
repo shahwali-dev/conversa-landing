@@ -5,7 +5,7 @@
 [![Package Manager: pnpm](https://img.shields.io/badge/Package%20Manager-pnpm-amber?style=flat-square&logo=pnpm)](https://pnpm.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-A high-performance, production-grade, and **Fully Config-Driven Open-Source Landing Page Template** built for AI chat tools and SaaS interfaces. Meticulously engineered using **Next.js 16 (App Router)**, **React 19 Runtime**, and **Tailwind CSS v4 (Native)**, optimized natively via **pnpm**.
+A production-grade, high-performance, and **100% Config-Driven Open-Source Landing Page Blueprint** explicitly engineered for AI chat tools and enterprise SaaS applications. Architected natively using **Next.js 16 (App Router)**, **React 19**, **Tailwind CSS v4 (Native Compiler)**, and fully optimized via a highly deterministic **pnpm Workspace** pipeline.
 
 Live Production URL: [conversa-landing.vercel.app](https://conversa-landing.vercel.app/)
 
@@ -13,12 +13,12 @@ Live Production URL: [conversa-landing.vercel.app](https://conversa-landing.verc
 
 ## 💎 Architectural Highlights & Engineering Excellence
 
-This repository has been decoupled from standard hardcoded layouts into a highly scaleable, configuration-first open-source blueprint:
+This repository template has been decoupled from hardcoded structural layers into a highly maintainable, scalable open-source ecosystem:
 
-- **100% Config-Driven UI:** Modify the hero layout, features matrix, pricing structure, FAQs, and navigation menus on the fly without changing a single line of JSX/TSX elements. Everything is centrally managed inside the `./config/` core directory.
-- **Native Tailwind CSS v4 Engine:** Bypassed old legacy PostCSS compilation abstractions. This setup leverages Tailwind v4's native compiler for ultra-fast, sub-millisecond hot-reloading and heavily shaved production build bundles.
-- **Deterministic Dependency Management:** Powered by **pnpm** to secure clean peer dependency execution graphs under React 19, avoiding ghost dependencies while drastically saving local disk cache storage.
-- **Fluid Animation Dynamics:** Injected high-performance UI micro-interactions and scroll-bound layouts powered natively by **Framer Motion Core**.
+- **Full Configuration-Driven UI System:** Modify the core layout, sub-pages, pricing models, meta-tags, privacy clauses, FAQs, and navigation metrics dynamically without touching a single line of JSX/TSX core code. Everything is managed from centralized state models inside `./config/`.
+- **Next-Gen Compilation (Tailwind CSS v4 Native):** Fully bypassed legacy PostCSS abstraction layers. Leveraging Tailwind v4's native compiler architecture for lightning-fast sub-millisecond local compilation and minimum production CSS bundle footprint.
+- **Deterministic Package Integrity with pnpm:** Engineered over a single-node **`pnpm Workspace`** layout to guarantee strict peer dependency synchronization under React 19, avoiding ghost dependencies while shaving dependency overhead storage.
+- **Cinematic Motion Layers:** Fluid UI micro-interactions, responsive disclosures, and scroll-bound layouts powered natively by **Framer Motion Core**.
 
 ---
 
@@ -30,21 +30,30 @@ This repository has been decoupled from standard hardcoded layouts into a highly
 
 ---
 
-## 📂 Structural Layout & Architecture
-
-Unlike complex full-stack architectures, this frontend structure is explicitly layered between global configuration states and clean App Router conventions:
+## 📂 Exact Folder Structure & Taxonomy
 
 ```text
-├── app/                  # Next.js 16 Active Routing Domain
-│   ├── components/       # Custom Content Modules (Decoupled from UI)
-│   │   ├── layout/       # Modular Header, Footer, and Structural Wrappers
-│   │   └── sections/     # Animated Content Units (Hero, Pricing, FAQ)
-│   ├── demo/             # Template Sandbox Sandbox Simulator
-│   └── globals.css       # Tailwind CSS v4 Base Configurations
-├── components/           # Base Component Engine (Shadcn UI Layer)
-│   └── ui/               # Primitive Atoms (Radix UI Adaptations)
-├── config/               # The Control Center (Pure TS Configuration Models)
-│   ├── hero.ts           # Dynamic Typography & Asset Registries
-│   ├── pricing.ts        # Subscription Tier Pricing Schemas
-│   └── siteConfig.ts     # Meta SEO & Application Properties
-└── lib/                  # Atomic Utility Helper Modules
+├── app/                      # Next.js 16 Active Routing Domain (App Router)
+│   ├── components/           # Core Layout Injections & Section Modules
+│   │   ├── layout/           # Global Structural Scaffolding (Header, Footer, Navigation)
+│   │   └── sections/         # High-Performance Animated Sections (Hero, Pricing, FAQ)
+│   ├── (sub-routes)/         # Scaled Multi-Page Ecosystem Pages
+│   │   ├── demo/, contact/, cookies/, faq/, upgrade/, privacy/, signup/, support/, terms/
+│   │   └── page.tsx          # Global Main Entry Point Layout Canvas
+│   ├── sitemap.ts & robots.ts # Dynamic Search Engine Optimization (SEO) Pipelines
+│   └── globals.css           # Tailwind CSS v4 Native Directives Injection Layer
+├── components/               # Atomic Engine Architecture (Shadcn UI Blocks)
+│   ├── ui/                   # Hardened Primitives (Radix UI Adaptations)
+│   ├── login-form.tsx        # Centralized Authentication Components
+│   └── signup-form.tsx       # Centralized Authentication Components
+├── config/                   # The Control Tower (Pure TypeScript Modular Schemas)
+│   ├── siteConfig.ts         # Master Global Identity Schema
+│   ├── hero.ts & features.ts # Marketing & Core Feature Registries
+│   ├── pricing.ts & upgrade.ts # Tier Monetization Schemas
+│   ├── faq.ts & reviews.ts   # Interactive Accordion & Social Testimonial Assets
+│   ├── privacy.ts & terms.ts # Hardened Legal Compliance Matrix Data
+│   └── metadata.ts           # Unified OpenGraph (OG) Metadata State Core
+├── lib/                      # Atomic Utility Hooks & Context Factories (`utils.ts`)
+├── public/                   # Static CDN-Grade Assets (SVGs, Optimization Vectors)
+├── pnpm-workspace.yaml       # Strict Monorepo Package Multi-Node Registry
+└── pnpm-lock.yaml            # Hardened Native Peer Dependency Graph
