@@ -1,7 +1,7 @@
 # 🚀 Conversa Landing Page Template (Open-Source)
 
 [![Framework: Next.js 16](https://img.shields.io/badge/Framework-Next.js%2016-black?style=flat-square&logo=next.dot-js)](https://nextjs.org/)
-[![Styling: Tailwind CSS v3](https://img.shields.io/badge/Styling-Tailwind%20CSS%20v4-blue?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+[![Styling: Tailwind CSS v3](https://img.shields.io/badge/Styling-Tailwind%20CSS%20v3-blue?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 [![Package Manager: pnpm](https://img.shields.io/badge/Package%20Manager-pnpm-amber?style=flat-square&logo=pnpm)](https://pnpm.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
