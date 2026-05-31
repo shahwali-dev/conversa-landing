@@ -5,7 +5,7 @@
 [![Package Manager: pnpm](https://img.shields.io/badge/Package%20Manager-pnpm-amber?style=flat-square&logo=pnpm)](https://pnpm.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-A production-grade, high-performance, and **100% Config-Driven Open-Source Landing Page Blueprint** explicitly engineered for AI chat tools and enterprise SaaS applications. Architected natively using **Next.js 16 (App Router)**, **React 19**, **Tailwind CSS v3 (Native Compiler)**, and fully optimized via a highly deterministic **pnpm Workspace** pipeline.
+A production-grade, high-performance, and **100% Config-Driven Open-Source Landing Page Blueprint** explicitly engineered for AI chat tools and enterprise SaaS applications. Architected natively using **Next.js 16 (App Router)**, **React 19**, **Tailwind CSS v3 (PostCSS Pipeline)**, and fully optimized via a highly deterministic **pnpm Workspace** pipeline.
 
 Live Production URL: [conversa-landing.vercel.app](https://conversa-landing.vercel.app/)
 
@@ -16,7 +16,7 @@ Live Production URL: [conversa-landing.vercel.app](https://conversa-landing.verc
 This repository template has been decoupled from hardcoded structural layers into a highly maintainable, scalable open-source ecosystem:
 
 - **Full Configuration-Driven UI System:** Modify the core layout, sub-pages, pricing models, meta-tags, privacy clauses, FAQs, and navigation metrics dynamically without touching a single line of JSX/TSX core code. Everything is managed from centralized state models inside `./config/`.
-- **Next-Gen Compilation (Tailwind CSS v3 Native):** Fully bypassed legacy PostCSS abstraction layers. Leveraging Tailwind v4's native compiler architecture for lightning-fast sub-millisecond local compilation and minimum production CSS bundle footprint.
+- **Robust Tailwind CSS v3 Compilation:** Fully optimized via standard PostCSS bundling, leveraging Tailwind v3's proven utility engine for fast local JIT compilation and minimum production CSS bundle footprint.
 - **Deterministic Package Integrity with pnpm:** Engineered over a single-node **`pnpm Workspace`** layout to guarantee strict peer dependency synchronization under React 19, avoiding ghost dependencies while shaving dependency overhead storage.
 - **Cinematic Motion Layers:** Fluid UI micro-interactions, responsive disclosures, and scroll-bound layouts powered natively by **Framer Motion Core**.
 
@@ -25,7 +25,7 @@ This repository template has been decoupled from hardcoded structural layers int
 ## 📸 Visual Production Walkthrough
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4284e3f4-e57f-4509-8e26-318508a90b72" alt="Conversa Landing Page Premium Walkthrough" width="100%" />
+  <img src="https://github.com/user-attachments/assets/4cbdbb1d-fc61-4208-8c3e-51c891bde373" alt="Conversa Landing Page Premium Walkthrough" width="100%" style="border-radius: 8px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);" />
 </p>
 
 ---
@@ -41,11 +41,11 @@ This repository template has been decoupled from hardcoded structural layers int
 │   │   ├── demo/, contact/, cookies/, faq/, upgrade/, privacy/, signup/, support/, terms/
 │   │   └── page.tsx          # Global Main Entry Point Layout Canvas
 │   ├── sitemap.ts & robots.ts # Dynamic Search Engine Optimization (SEO) Pipelines
-│   └── globals.css           # Tailwind CSS v3 Native Directives Injection Layer
+│   └── globals.css           # Tailwind CSS v3 Global Directives Layer
 ├── components/               # Atomic Engine Architecture (Shadcn UI Blocks)
 │   ├── ui/                   # Hardened Primitives (Radix UI Adaptations)
 │   ├── login-form.tsx        # Centralized Authentication Components
-│   └── signup-form.tsx       # Centralized Authentication Components
+│   └── signup-form.tsx        # Centralized Authentication Components
 ├── config/                   # The Control Tower (Pure TypeScript Modular Schemas)
 │   ├── siteConfig.ts         # Master Global Identity Schema
 │   ├── hero.ts & features.ts # Marketing & Core Feature Registries
@@ -55,5 +55,7 @@ This repository template has been decoupled from hardcoded structural layers int
 │   └── metadata.ts           # Unified OpenGraph (OG) Metadata State Core
 ├── lib/                      # Atomic Utility Hooks & Context Factories (`utils.ts`)
 ├── public/                   # Static CDN-Grade Assets (SVGs, Optimization Vectors)
+├── tailwind.config.ts        # Type-Safe Tailwind CSS v3 Engine Layout Map
+├── postcss.config.ts         # Type-Safe PostCSS Processing Engine Core
 ├── pnpm-workspace.yaml       # Strict Monorepo Package Multi-Node Registry
 └── pnpm-lock.yaml            # Hardened Native Peer Dependency Graph
