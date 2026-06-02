@@ -9,6 +9,14 @@ A production-grade, high-performance, and **100% Config-Driven Open-Source Landi
 
 Live Production URL: [conversa-landing.vercel.app](https://conversa-landing.vercel.app/)
 
+<p align="center">
+  <br />
+  <a href="https://algora.io/shahwali-dev" target="_blank">
+    <img src="https://algora.io/og/user/shahwali-dev" alt="Shah Wali's Algora Profile" width="100%" style="max-width: 100%; display: block;" />
+  </a>
+  <br />
+</p>
+
 ---
 
 ## 💎 Architectural Highlights & Engineering Excellence
@@ -45,7 +53,7 @@ This repository template has been decoupled from hardcoded structural layers int
 ├── components/               # Atomic Engine Architecture (Shadcn UI Blocks)
 │   ├── ui/                   # Hardened Primitives (Radix UI Adaptations)
 │   ├── login-form.tsx        # Centralized Authentication Components
-│   └── signup-form.tsx        # Centralized Authentication Components
+│   └── signup-form.tsx       # Centralized Authentication Components
 ├── config/                   # The Control Tower (Pure TypeScript Modular Schemas)
 │   ├── siteConfig.ts         # Master Global Identity Schema
 │   ├── hero.ts & features.ts # Marketing & Core Feature Registries
